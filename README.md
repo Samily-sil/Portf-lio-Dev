@@ -31,7 +31,7 @@ O design foi baseado em um layout do Figma, com foco em uma interface moderna, o
 
 # Acesse o projeto
 
-👉 [Ver projeto online](https://samily-sil.github.io/SEU-LINK-AQUI)
+👉 [Ver projeto online](https://samily-sil.github.io/Portf-lio-Dev/)
 
 ---
 
@@ -39,7 +39,7 @@ O design foi baseado em um layout do Figma, com foco em uma interface moderna, o
 
 <!-- imagem -->
 
-![preview do projeto](./assets/images/preview.png)
+![Preview do projeto](./assets/images/preview.png)
 
 ---
 
@@ -47,7 +47,7 @@ O design foi baseado em um layout do Figma, com foco em uma interface moderna, o
 
 * LinkedIn: https://www.linkedin.com/in/samily-sousa-919352362
 * GitHub: https://github.com/Samily-sil
-* Email: samily.sss2005@gmail.com
+* Email: [samily.sss2005@gmail.com](mailto:samily.sss2005@gmail.com)
 
 ---
 
