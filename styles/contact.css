@@ -1,0 +1,199 @@
+/* footer {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact__header {
+  text-align: center;
+  margin-top: 128px;
+  margin-bottom: 48px;
+  span {
+    color: var(--purple);
+    font: var(--subtitle);
+  }
+
+  h2 {
+    color: var(--gray-100);
+    font: var(--title-md);
+  }
+
+  p {
+    color: var(--gray-200);
+    font: var(--text-md);
+  }
+}
+
+.contact__links {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.contact__item {
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  padding: 16px 20px;
+
+  max-width: 400px;
+  width: 100%;
+  max-height: 68px;
+
+  text-decoration: none;
+
+  span {
+    display: flex;
+    justify-self: center;
+  }
+}
+
+.seta {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.email-text {
+  position: relative;
+}
+
+.email-text::after {
+  content: "samily.sss2005@gmail.com";
+
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: var(--gray-400);
+  color: var(--gray-200);
+
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+
+  white-space: nowrap;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.2s;
+}
+
+.email-text::before {
+  content: "";
+
+  position: absolute;
+  left: 105%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: 6px solid transparent;
+  border-right-color: var(--gray-400);
+
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.contact__item:hover .email-text::after,
+.contact__item:hover .email-text::before {
+  opacity: 1;
+} */
+
+footer {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* container central */
+.footer__container {
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* header (textos) */
+.contact__header {
+  text-align: center;
+  margin-bottom: 48px;
+  margin-top: 128px;
+}
+
+.contact__header span {
+  color: var(--purple);
+  font: var(--subtitle);
+}
+
+.contact__header h2 {
+  color: var(--gray-100);
+  font: var(--title-md);
+  margin-top: 8px;
+}
+
+.contact__header p {
+  color: var(--gray-200);
+  font: var(--text-md);
+  margin-top: 8px;
+}
+
+/* lista de contatos */
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 150px;
+}
+
+/* card clicável */
+.contact__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--gray-400);
+  padding: 20px;
+  border-radius: 12px;
+
+  text-decoration: none;
+}
+
+/* parte esquerda (icone + texto) */
+.contact__left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* texto */
+.contact__item span {
+  color: var(--gray-100);
+  font: var(--text-md);
+}
+
+/* seta */
+.seta {
+  width: 12px;
+  height: auto;
+}
+
+.email-text {
+  position: relative;
+}
+
+.email-text::after {
+  content: "_ samily.sss2005@gmail.com";
+  
+  position: absolute;
+  left: 100%;
+  margin-left: 6px;
+
+  opacity: 0;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+.contact__item:hover .email-text::after {
+  opacity: 1;
+}
